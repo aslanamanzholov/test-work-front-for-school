@@ -1,0 +1,63 @@
+.grid-container {
+  margin: 20px;
+}
+
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.place__for__image{
+  width: 464px;
+  height: 422px;
+}
+
+.info__section{
+  display: flex;
+}
+
+section{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.action__text{
+  color: #E9399C;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.topic__text{
+  color: #315AF2;
+  font-size: 44px;
+}
+
+.description__text{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.button__school {
+  background: #315AF2;
+  color: #FFFFFF;
+  max-width: 166px;
+  height: 32px;
+  width: 100%;
+  text-align: center;
+  line-height: 25px;
+}

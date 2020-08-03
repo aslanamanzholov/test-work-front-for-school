@@ -1,0 +1,51 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.logo{
+  color: #315AF2;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.post_logo__text{
+    text-align: right;
+    line-height: 37px;
+    font-size: 19px;
+    color: #010101;
+    font-weight: bold;
+}
+
+/*.logo_container{*/
+/*  display: flex;*/
+/*  align-content: space-between;*/
+/*  align-items: center;*/
+/*}*/
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+}
+
+.wrapper__logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.button__school {
+  background: #315AF2;
+  color: #FFFFFF;
+  max-width: 166px;
+  height: 32px;
+  width: 100%;
+  text-align: center;
+  line-height: 25px;
+}
+
