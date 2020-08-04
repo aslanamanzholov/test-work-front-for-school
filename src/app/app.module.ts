@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpService} from './http.service';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,11 +12,16 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
+import { TopicComponent } from './topic/topic.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    TopicComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,15 +31,21 @@ import { LayoutModule } from '@angular/cdk/layout';
         path: '',
         component: HomeComponent
       },
-    ], {useHash: true}),
+      {
+        path: 'create',
+        component: TopicComponent
+      }
+    ], {useHash: false}),
     MatCardModule,
     MatGridListModule,
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
     LayoutModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

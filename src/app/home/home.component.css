@@ -21,17 +21,9 @@
 }
 
 .place__for__image{
-  width: 464px;
+  max-width: 464px;
   height: 422px;
-}
-
-.info__section{
-  display: flex;
-}
-
-section{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 100%;
 }
 
 .action__text{
@@ -60,4 +52,67 @@ section{
   width: 100%;
   text-align: center;
   line-height: 25px;
+}
+
+.read__button {
+  background: #315AF2;
+  color: #FFFFFF;
+  max-width: 150px;
+  height: 58px;
+  width: 100%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.top__blocks{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+  margin-bottom: 40px;
+}
+
+.block{
+  background: #FFFFFF;
+  border: 2px solid #CDCDCD;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 300px;
+  max-width: 335px;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.block__text{
+  color: #315AF2;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 248px;
+  margin: auto;
+}
+
+.block__image{
+  width: 217px;
+  height: 130px;
+}
+
+.left_side{
+  width: 700px;
+}
+
+.block__span{
+  font-size: 12px;
+  line-height: 20px;
+  align-items: center;
+  letter-spacing: -0.416667px;
+  padding-left: 10px;
+  color: #979797;
 }

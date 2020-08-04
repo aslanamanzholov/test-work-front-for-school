@@ -1,0 +1,14 @@
+  <section>
+    <h2 class="topic">Добавить статью</h2>
+    <div class="input__header d-f d-cent">
+      <input type="text" placeholder="Введите название статьи" [(ngModel)]="topic.name_of_topic"  class="create__input">
+      <button class="button mat-button create__button m-l-20" (click)="postData(topic)">Опубликовать</button>
+    </div>
+      <div class="input__content d-f">
+        <textarea type="text" [(ngModel)]="topic.description_of_topic" class="create__input__area"></textarea>
+        <div class="upload__block m-l-20">
+          <p>Загрузить изобжание</p>
+      <button class="button mat-button upload__button">Файл</button>
+        </div>
+    </div>
+  </section>

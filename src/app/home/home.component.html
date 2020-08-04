@@ -1,12 +1,28 @@
 
-  <section class="info__section">
+  <section>
+    <div class="d-f">
     <div class="left_side">
     <p class="action__text">New</p>
     <h2 class="topic__text">Почему подросткам стоит изучать программирование?</h2>
     <p class="description__text">Объясняем почему словосочетание «программирование для подростков» не должно вызывать скептическую улыбку и какие полезные навыки приобретают ребята, изучая программирование.</p>
-    <button class="mat-button button__school">Читать</button>
+    <button class="button mat-button read__button">Читать</button>
     </div>
     <div class="right_side">
-      <div class="place__for__image">PLACE</div>
+      <div class="place__for__image"></div>
     </div>
+      </div>
+  <hr>
+  </section>
+  <section class="info__section">
+    <div>
+      <h2 class="topic">Другие статьи</h2>
+    </div>
+    <div class="top__blocks">
+      <div class="block" *ngFor="let topic of topics">
+        <span class="block__span">{{topic.date}}</span>
+        <div class="block__image">{{topic.file}}</div>
+        <p class="block__text">{{topic.description_of_topic}}</p>
+      </div>
+    </div>
+
   </section>

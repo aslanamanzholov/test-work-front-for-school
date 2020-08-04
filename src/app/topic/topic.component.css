@@ -1,0 +1,73 @@
+.create__input {
+  max-width: 881px;
+  width: 100%;
+  height: 38px;
+  background: #FFFFFF;
+  border: 2px solid #CDCDCD;
+  border-radius: 3px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 52px;
+  padding: 5px;
+}
+
+.create__button{
+  width: 159px;
+  height: 50px;
+  background: #E9399C;
+  border-radius: 3px;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.input__content{
+  margin-top: 40px;
+}
+
+.create__input__area {
+  max-width: 881px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 2px solid #CDCDCD;
+  border-radius: 3px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 52px;
+  padding: 5px;
+  height: 478px;
+}
+
+.m-l-20{
+  margin-left: 20px;
+}
+
+.upload__block{
+  background: #FFFFFF;
+  border: 2px solid #CDCDCD;
+  box-sizing: border-box;
+  border-radius: 3px;
+  max-width: 298px;
+  width: 100%;
+  height: 135px;
+  text-align: center;
+}
+
+.upload__block p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #315AF2;
+}
+
+.upload__button{
+    width: 159px;
+    height: 50px;
+  background: #315AF2;
+  border-radius: 3px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

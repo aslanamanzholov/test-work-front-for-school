@@ -1,4 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Museo Cyrl", Roboto, "Helvetica Neue", sans-serif; }
+
+a{
+  text-decoration: none;
+}
+
+hr{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+section{
+  padding-top: 40px;
+}
+
+.topic{
+  color: #315AF2;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.d-f{
+  display: flex;
+}
+
+.d-cent{
+  align-content: center;
+  align-items: center;
+}
+
+.jus-between{
+  justify-content: space-between;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
